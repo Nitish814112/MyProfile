@@ -1,0 +1,110 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contactCard {
+  background-color: #625eb1; 
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactCard h1 {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.contactContainer {
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9ebee; 
+  gap: 15px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contactContainer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  flex: 1 1 calc(50% - 30px);
+  max-width: 175px;
+  margin: 5px;
+  transition: transform 0.3s;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.contactContainer button:hover {
+  transform: scale(1.1);
+}
+
+.contactContainer button a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.contactContainer button a i {
+  margin-right: 5px;
+}
+
+.contactContainer .btn-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.contactContainer .btn-primary {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.contactContainer .btn-secondary {
+  border-color: #6c757d;
+  color: #6c757d;
+}
+
+.contactContainer .btn-dark {
+  border-color: #343a40;
+  color: #343a40;
+}
+
+
+@media (max-width: 768px) {
+  .contactContainer {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .contactContainer button {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contactContainer button {
+    padding: 10px 15px;
+  }
+
+  .contactContainer button a {
+    font-size: 14px;
+  }
+
+  .contactContainer button a i {
+    margin-right: 3px;
+  }
+}

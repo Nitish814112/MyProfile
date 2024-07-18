@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contents{
+    background-color:#625eb1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.heading h1{
+    color: #FFFFFF;
+    font-size: 3.8rem;
+    font-family: "Karla",sans-serif;
+}
+.display-certi{
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.zoom-img {
+    transition: transform 0.3s ease; 
+  }
+  
+  .zoom-img:hover {
+    transform: scale(1.5); 
+  }

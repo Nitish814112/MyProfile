@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .about {
+    padding: 4rem 2rem; 
+  }
+  .about h1{
+    font-size: 3.8rem;
+    font-family: "Karla", sans-serif;
+    color: #625eb1;
+  }
+  
+  .para {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-top: 2px solid #E0E0E0;
+    margin-bottom: 2rem;
+  }
+  
+  .para p {
+    font-size: 1rem;
+    color: #212529;
+    font-family: "Karla", sans-serif;
+  }
+  
+  .button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .button button {
+    margin: 0.5rem;
+  }
+  

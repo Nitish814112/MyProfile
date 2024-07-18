@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.card-body {
+    min-height: 100vh;
+    background-color: #625eb1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-body h1 {
+    color: #ffffff;
+    font-size: 3.8rem;
+    font-family: "Karla", sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px; 
+    margin-top: 30px;
+}
+
+
+.cards1, .cards2, .cards3, .cards4, .cards5 {
+    width: 100%; 
+    max-width: 300px; 
+    
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    transition: transform 0.3s ease;
+}
+
+.cards1:hover, .cards2:hover, .cards3:hover, .cards4:hover, .cards5:hover {
+    transform: scale(1.05);
+}
+
+.header h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #212529;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    white-space: nowrap;
+    font-family: "Karla", sans-serif;
+}
+
+
+.symbol, .symbol1, .symbol2, .symbol3, .symbol4, .symbol5, .symbol6, .symbol7, .symbol8, .symbol9, .symbol10 {
+    height: 90px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative; 
+    margin-bottom: 20px; 
+    padding: 10px;
+    text-align: center; 
+}
+
+.symbol h3, .symbol1 h3, .symbol2 h3, .symbol3 h3, .symbol4 h3, .symbol5 h3, .symbol6 h3, .symbol7 h3, .symbol8 h3, .symbol9 h3, .symbol10 h3 {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 80px; 
+    font-family: "Karla", sans-serif;
+}
+
+
+.symbol {
+    background-image: url('git.png'); 
+}
+
+.symbol1 {
+    background-image: url('mysql.png'); 
+}
+
+.symbol2 {
+    background-image: url('react.png'); 
+}
+
+.symbol3 {
+    background-image: url('bootstrap-logo-shadow.png'); 
+}
+
+.symbol4 {
+    background-image: url('tailwind.png'); 
+}
+
+.symbol5 {
+    background-image: url('git.png');
+}
+
+.symbol6 {
+    background-image: url('react.png'); 
+}
+
+.symbol7 {
+    background-image: url('Html.png'); 
+}
+
+.symbol8 {
+    background-image: url('css1.png'); 
+}
+
+.symbol9 {
+    background-image: url('Javascript.png'); 
+}
+
+.symbol10 {
+    background-image: url('java.png'); 
+}

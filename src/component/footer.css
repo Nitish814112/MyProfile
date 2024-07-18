@@ -1,0 +1,11 @@
+
+
+.footerContainer h1{
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    margin-top: -2px;
+    background-color: black;
+    font-family: "Karla",sans-serif;
+    color: #FFFFFF;
+}
