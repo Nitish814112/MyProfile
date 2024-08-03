@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.symbol11{
+    background-image: url('vercel.png');
+}
 
 
 .card-body {
@@ -63,7 +66,7 @@
 }
 
 
-.symbol, .symbol1, .symbol2, .symbol3, .symbol4, .symbol5, .symbol6, .symbol7, .symbol8, .symbol9, .symbol10 {
+.symbol, .symbol1, .symbol2, .symbol3, .symbol4, .symbol5, .symbol6, .symbol7, .symbol8, .symbol9, .symbol10,.symbol11,.symbol20 {
     height: 90px;
     width: 200px;
     display: flex;
@@ -78,7 +81,7 @@
     text-align: center; 
 }
 
-.symbol h3, .symbol1 h3, .symbol2 h3, .symbol3 h3, .symbol4 h3, .symbol5 h3, .symbol6 h3, .symbol7 h3, .symbol8 h3, .symbol9 h3, .symbol10 h3 {
+.symbol h3, .symbol1 h3, .symbol2 h3, .symbol3 h3, .symbol4 h3, .symbol5 h3, .symbol6 h3, .symbol7 h3, .symbol8 h3, .symbol9 h3, .symbol10 h3 ,.symbol11 h3 ,.symbol20 h3{
     font-size: 1rem;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -109,6 +112,9 @@
 
 .symbol5 {
     background-image: url('git.png');
+}
+.symbol20{
+    background-image: url('netlify.png');
 }
 
 .symbol6 {

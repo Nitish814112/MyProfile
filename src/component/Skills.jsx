@@ -43,6 +43,12 @@ const Skills = () => {
           <div className="symbol5">
             <h3>Github</h3>
           </div>
+          <div className="symbol11">
+            <h3>Vercel</h3>
+          </div>
+          <div className="symbol20">
+            <h3>Netlify</h3>
+          </div>
         </div>
         <div className="cards5">
           <div className="header">

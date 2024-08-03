@@ -13,6 +13,8 @@ const Project = () => {
         <div className="circle"></div>
         <div className="line2"></div>
         <div className="circle"></div>
+        <div className="line3"></div>
+        <div className="circle"></div>
         <div className="line"></div>
       </div>
 
@@ -25,7 +27,7 @@ const Project = () => {
       <div className="des">
           <a
             className="btn btn-primary"
-            href="https://bmdrx1.csb.app/"
+            href="https://todo-app-self-beta-28.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -43,7 +45,26 @@ const Project = () => {
       <div className="des">
           <a
             className="btn btn-primary"
-            href="https://ggoi51.csb.app/"
+            href="https://weather-app-green-two-70.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View
+          </a>
+        </div>
+      </div>
+      
+
+      <div className="sticker2">Waiting</div>
+      <div className="project-card2">
+      <div className="header">
+        <h4>Weather-Card</h4>
+      </div>
+      <div className="img-2"></div>
+      <div className="des">
+          <a
+            className="btn btn-primary"
+            href="https://weather-app-green-two-70.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >

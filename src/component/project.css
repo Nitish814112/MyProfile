@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .project-body{
-  height:718px ;
+  height:auto ;
   background-color: #625eb1;
 }
 .partition-line {
@@ -31,6 +31,11 @@
   width: 4px;
   border-right: 2px solid red;
 }
+.line3{
+  height: 220px;
+  width: 4px;
+  border-right: 2px solid red;
+}
 .circle{
   height: 15px;
   width: 15px;
@@ -49,7 +54,7 @@
   font-family: "Karla",sans-serif;
   text-align: center;
 margin-left: 36.5rem;
-margin-top: -20rem;
+margin-top: -31.8rem;
 }
 .sticker1{
   width: 3.5rem;
@@ -63,6 +68,42 @@ margin-top: -20rem;
   text-align: center;
 margin-left: 41.5rem;
 margin-top: -6.9rem;
+}
+.sticker2{
+  width: 3.5rem;
+  height: 20px;
+  border: 2px solid black;
+  background-color:red;
+  color: #FFFFFF;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Karla",sans-serif;
+  text-align: center;
+margin-left: 36.5rem;
+margin-top: -6.6rem;
+}
+.project-card2{
+
+  height:350px;
+  width: 350px;
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  position: relative;
+  right: -43rem;
+  top:-8.5rem;
+ 
+  
+
+}
+.img-2{
+
+  height:70%;
+width: 100%;
+
+background-image: url('crypto.png');
+background-size: cover;
+border-bottom: 1px solid black;
+
 }
 .project-card{
   height:350px;
@@ -121,6 +162,9 @@ border-bottom: 1px solid black;
 .project-card:hover{
   transform: scale(1.10);
   }
+  .project-card2:hover{
+    transform: scale(1.10);
+    }
 .des{
 
 display: flex;
@@ -141,12 +185,14 @@ padding-top: 5px;
   }
 
   .sticker,
-  .sticker1 {
+  .sticker1,
+  .sticker2 {
     display: none;
   }
 
   .project-card,
-  .project-card1 {
+  .project-card1 ,
+  .project-card2{
     width: 80%;
     margin-bottom: 20px;
     right: 0;
