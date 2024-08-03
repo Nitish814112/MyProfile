@@ -58,13 +58,13 @@ const Project = () => {
       <div className="sticker2">Waiting</div>
       <div className="project-card2">
       <div className="header">
-        <h4>Weather-Card</h4>
+        <h4>Crypto-App</h4>
       </div>
       <div className="img-2"></div>
       <div className="des">
           <a
             className="btn btn-primary"
-            href="https://weather-app-green-two-70.vercel.app/"
+            href="https://crypto-currency-gilt.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
