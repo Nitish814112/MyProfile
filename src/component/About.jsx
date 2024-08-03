@@ -28,7 +28,7 @@ const About = () => {
               <button className="btn btn-primary" onClick={scrollToContact}>Let's Talk</button>
               <button className="btn btn-success"><a className="btn btn-success" href={'https://drive.google.com/file/d/12sBuZW-xvckfnqFB1DtbQm4ac27k3t9G/view?usp=sharing'} target="_blank" rel="noopener noreferrer" style={{textDecoration:"none",color:"#FFFFFF"}}>My Resume</a></button>
               <button className="btn btn-danger"><a href="https://github.com/Nitish814112" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none",color:"#FFFFFF"}}>GitHub</a></button>
-              <button className="btn btn-info"><a href="https://www.linkedin.com/in/nitish814112/" target="_blank"  rel="noopener noreferrer" style={{textDecoration:"none",color:"#FFFFFF"}}></a>LinkedIn</button>
+              <button className="btn btn-info"><a href="https://www.linkedin.com/in/nitish814112" target="_blank" style={{textDecoration:"none",color:"#FFFFFF"}}>LinkedIn</a></button>
             </div>
           </div>
         </div>
