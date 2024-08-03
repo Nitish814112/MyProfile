@@ -14,7 +14,7 @@ const Contact = () => {
         </button>
 
         <button className='btn btn-primary'>
-          <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/nitish814112" target="_blank" rel="noopener noreferrer">
            <span><i className="fab fa-linkedin"></i></span>  LinkedIn
           </a>
         </button>
